@@ -1,0 +1,22 @@
+{
+  "name": "babble-server",
+  "version": "1.0.0",
+  "description": "server for babble chat",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/ShivangM/babble-chat",
+  "author": "Shivang Mishra",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3"
+  }
+}
